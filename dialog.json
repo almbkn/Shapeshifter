@@ -1,0 +1,5 @@
+[
+	{"Name":"Doofus", "Emotion":"Neutral", "Text":"Hello, I'm a doofus!", "Options":0},
+	{"Name":"Doofus", "Emotion":"Happy", "Text":"I'm extremely trusting!", "Options":0},
+	{"Name":"Doofus", "Emotion":"Inquisitive", "Text":"Should I trust you?", "Options":2},
+]

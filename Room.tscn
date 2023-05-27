@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://dogo0lldus70t"]
+
+[ext_resource type="Texture2D" uid="uid://dw4sspiysnd02" path="res://ForestBG.jpg" id="1_6y1vt"]
+[ext_resource type="PackedScene" uid="uid://bgoa7otjs2b4r" path="res://Character.tscn" id="2_4o18t"]
+
+[node name="Room" type="Node2D"]
+
+[node name="Background" type="Sprite2D" parent="."]
+position = Vector2(960, 540)
+scale = Vector2(1.92, 1.61919)
+texture = ExtResource("1_6y1vt")
+
+[node name="Character" parent="." instance=ExtResource("2_4o18t")]
+position = Vector2(1608, 421)
